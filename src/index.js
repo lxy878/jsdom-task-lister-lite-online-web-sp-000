@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener('submit', (event)=>{
     // console.log(event.target);
     descriptions.push(description.value);
-    tasks.innerHTML = listTask();
+    tasks.innerHTML = listTask(descriptions);
     event.preventDefault();
   });
 
