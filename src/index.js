@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener('click', (event)=>{
     if(event.target.nodeName === 'BUTTON'){
-      
+
     }
   });
 
@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function listTask(descriptions){
   let list = '';
-  for(let description of descriptions){
-    list += `<li>${description}<button>X</button></li>`;
+  for(let i=0; i<descriptions; i++){
+    list += `<li>${description}<button id=${}>X</button></li>`;
   }
   return list;
 }
