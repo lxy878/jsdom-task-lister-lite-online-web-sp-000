@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener('click', (event)=>{
     if(event.target.nodeName === 'button'){
-      console.log('do something')
+      console.log('do something');
     }
   });
 
