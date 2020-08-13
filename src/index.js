@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener('click', (event)=>{
-  console.log(event.name);
+  console.log(event);
   event.preventDefault();
 });
