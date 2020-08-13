@@ -1,5 +1,6 @@
 const list = document.querySelector('div#list');
 const tasks = document.querySelector('ul#tasks');
+const list = []
 
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
