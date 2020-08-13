@@ -5,13 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const descriptions = [];
 
   document.addEventListener('submit', (event)=>{
-    console.log(event.target);
     descriptions.push(description.value);
     tasks.innerHTML = listTask(descriptions);
     event.preventDefault();
   });
   document.addEventListener('click', (event)=>{
-    
+
   })
 
 });
