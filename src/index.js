@@ -7,5 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener('click', (event)=>{
   console.log(event.target);
+  const description = document.querySelector('input#new-task-description')
   event.preventDefault();
 });
