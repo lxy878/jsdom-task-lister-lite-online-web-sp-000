@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener('click', (event)=>{
     if(event.target.nodeName === 'BUTTON'){
       const id = event.target.id;
+      descriptions.splice(id, 1);
     }
   });
 
