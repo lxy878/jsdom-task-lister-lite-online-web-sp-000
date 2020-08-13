@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
     tasks.innerHTML = listTask(descriptions);
     event.preventDefault();
   });
+  document.addEventListener('click', (event)=>{
+    
+  })
 
 });
 
