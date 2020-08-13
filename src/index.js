@@ -13,3 +13,9 @@ document.addEventListener('submit', (event)=>{
   list.innerHTML = `<li>${description_list[0]}</li>`;
   event.preventDefault();
 });
+
+function listTask(){
+  for(let description of description_list){
+
+  }
+}
