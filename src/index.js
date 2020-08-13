@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 });
 
-document.addEventListener('click', (event)=>{
+document.addEventListener('submit', (event)=>{
   // console.log(event.target);
   const description = document.querySelector('input#new-task-description');
   description_list.push(description.value);
