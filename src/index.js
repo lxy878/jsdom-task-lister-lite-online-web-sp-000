@@ -1,6 +1,6 @@
 const tasks = document.querySelector('ul#tasks');
 const description = document.querySelector('input#new-task-description');
-const description_list = [];
+const descriptions = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
