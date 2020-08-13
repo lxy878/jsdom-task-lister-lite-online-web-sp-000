@@ -1,4 +1,4 @@
-const list = document.querySelector('div#list')
+const list = document.querySelector('div#list');
 
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
