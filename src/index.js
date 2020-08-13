@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function listTask(descriptions){
   let list = '';
   for(let description of descriptions){
-    descriptions += `<li>${description}</li>`;
+    list += `<li>${description}</li>`;
   }
   return descriptions
 }
