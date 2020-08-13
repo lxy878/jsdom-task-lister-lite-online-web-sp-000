@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('click', (event)=>{
   // console.log(event.target);
   const description = document.querySelector('input#new-task-description');
-  console.log(description.textContent)
+  console.log(description.textContent);
   event.preventDefault();
 });
