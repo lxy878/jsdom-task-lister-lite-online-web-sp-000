@@ -18,5 +18,5 @@ function listTask(descriptions){
   for(let description of descriptions){
     list += `<li>${description}</li>`;
   }
-  return descriptions
+  return list
 }
