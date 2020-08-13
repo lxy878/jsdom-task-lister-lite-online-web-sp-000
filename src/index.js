@@ -7,19 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener('submit', (event)=>{
     // console.log(event.target);
     descriptions.push(description.value);
-    tasks.innerHTML = () =>{
-      let descriptions = '';
-      for(let description of descriptions){
-        descriptions += `<li>${description}</li>`;
-      }
-      return descriptions
-    }
+    tasks.innerHTML = listTask();
     event.preventDefault();
   });
 
 });
 
-function listTask(){
+function listTask(descriptions){
   let descriptions = '';
   for(let description of descriptions){
     descriptions += `<li>${description}</li>`;
