@@ -6,5 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener('click', (event)=>{
   console.log(event.target);
+  const tasks = document.querySelector('ul#tasks')
   event.preventDefault();
 });
