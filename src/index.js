@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener('click', (event)=>{
-    console.log(event.target.name);
+    console.log(event.target.Nodename);
   });
 
 });
