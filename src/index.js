@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('submit', (event)=>{
   // console.log(event.target);
   description_list.push(description.value);
-  list.innerHTML = listTask();
+  tasks.innerHTML = listTask();
   event.preventDefault();
 });
 
