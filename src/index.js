@@ -15,7 +15,7 @@ document.addEventListener('submit', (event)=>{
 
 function listTask(){
   let descriptions = '';
-  for(let description of description_list){
+  for(let description of descriptionst){
     descriptions += `<li>${description}</li>`;
   }
   return descriptions
