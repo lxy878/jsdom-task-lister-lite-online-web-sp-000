@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
       tasks.innerHTML = listTask(descriptions);
     }
   });
-
 });
 
 function listTask(descriptions){
