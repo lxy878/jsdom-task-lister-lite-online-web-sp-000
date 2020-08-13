@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener('click', (event)=>{
     if(event.target.nodeName === 'BUTTON'){
-      const id = event.target.id;
+      const id = event.target.description_id;
       descriptions.splice(id, 1);
       tasks.innerHTML = listTask(descriptions);
     }
